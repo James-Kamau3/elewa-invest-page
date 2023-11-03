@@ -1,3 +1,25 @@
-.navbar{
-  background-image: url('https://res.cloudinary.com/dyl3rncv3/image/upload/v1679982347/elewa-group-website/hero-Images/dark-to-light_xrat5g.jpg');
+@font-face {
+  font-family: jeko;
+  src: url('./Fonts/jeko-medium.ttf');
+}
+
+
+
+.img{
+  position: absolute;
+  z-index: -1;
+  object-fit: cover;
+  width: 100vw;
+  height: 100vh;
+}
+
+.south-text{
+  font-family: jeko;
+  font-size: 3rem;
+  font-weight: 400;
+  display: block;
+  margin-block-start: 0.67em;
+  margin-block-end: 0.67em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
 }
