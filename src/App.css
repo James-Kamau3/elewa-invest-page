@@ -57,4 +57,11 @@
     font-size: 2rem;
     font-weight: 300;
   }
+  .description-text{
+    font-size: 1rem;
+    font-weight: 400;
+  }
+  .description-container{
+    background: local;
+  }
 }
