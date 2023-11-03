@@ -2,7 +2,7 @@
   font-family: jeko;
   src: url('./Fonts/jeko-medium.ttf');
 }
-
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz@9..40&display=swap');
 
 
 .img{
@@ -18,8 +18,8 @@
   font-size: 3rem;
   font-weight: 400;
   display: block;
-  margin-block-start: 0.67em;
-  margin-block-end: 0.67em;
-  margin-inline-start: 0px;
-  margin-inline-end: 0px;
+}
+
+.trade-text{
+  font-family: 'DM Sans', sans-serif;
 }
