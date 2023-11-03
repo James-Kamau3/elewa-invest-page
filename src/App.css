@@ -30,7 +30,7 @@
   height: 100vh;
 }
 
-.different-text{
+.different-header{
   font-family: jeko;
   font-weight: 400;
   font-size: 3rem;
@@ -52,8 +52,17 @@
   max-width: 90%;
 }
 
+.figures-header{
+  font-family: jeko;
+  font-weight: 500;
+
+}
+
+
+
+
 @media (max-width: 768px){
-  .different-text{
+  .different-header{
     font-size: 2rem;
     font-weight: 300;
   }

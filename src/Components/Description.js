@@ -7,10 +7,11 @@ function Description() {
     <div>
       {/* Description Container */}
       <div className='description-container container flex flex-col pl-16 md:pl-16 md:max-w-fit'>
-        <div className='different-text text-xs mt-24 md:mt-20'>
+        <div className='different-header text-xs mt-24 md:mt-32'>
+            {/* Description header */}
             <h1>How we see it differently</h1>
         </div>
-
+                {/* Description paragraph */}
         <div className='description-text mt-10 md:w-8/12 md:mt-10'>
             <p>
             The global South is rapidly catching up with the "developed" world. It's
@@ -19,6 +20,7 @@ function Description() {
             </p>
         </div>
         <div>
+                    {/* Display image */}
             <img className='view-img mt-8 md:mt-16' src='https://res.cloudinary.com/dyl3rncv3/image/upload/c_scale,w_1280/v1675690306/elewa-group-website/Images/Mask_Group_17_rjkgrq.png' alt='view'/>
         </div>
       </div>
@@ -26,4 +28,4 @@ function Description() {
   )
 }
 
-export default Description
+export default Description;
