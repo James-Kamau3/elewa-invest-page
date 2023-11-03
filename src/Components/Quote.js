@@ -15,4 +15,4 @@ function Quote() {
   )
 }
 
-export default Quote
+export default Quote;

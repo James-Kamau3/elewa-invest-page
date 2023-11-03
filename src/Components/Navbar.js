@@ -1,10 +1,12 @@
 import React from 'react'
 import '../App.css'
+import Quote from './Quote'
 
 function Navbar() {
   return (
     <div className='navbar-container'>
       
+      {/* Background image */}
         <img className='img' src='https://res.cloudinary.com/dyl3rncv3/image/upload/v1679982347/elewa-group-website/hero-Images/dark-to-light_xrat5g.jpg' alt='sky'/>
 
       <nav className='relative container mx-auto p-12 md:border-b-2 md:border-white'>
@@ -22,8 +24,10 @@ function Navbar() {
         </div>
         </div>
       </nav>
+      <Quote />
     </div>
+
   )
 }
 
-export default Navbar
+export default Navbar;

@@ -23,3 +23,9 @@
 .trade-text{
   font-family: 'DM Sans', sans-serif;
 }
+
+.navbar-container{
+  background: rgba(0, 0, 0, 0.5);
+  width: 100vw;
+  height: 100vh;
+}
