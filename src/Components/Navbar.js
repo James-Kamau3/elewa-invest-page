@@ -22,6 +22,21 @@ function Navbar() {
             <a href='contact' className='hover:underline'>Contact</a>
             <a href='invest' className='hover:underline'>Invest</a>
         </div>
+        {/* Mobile menu items */}
+        {/* <div className='md:hidden'>
+          <div className='absolute flex-col items-center hidden text-white self-end py-8 mt-10 space-y-6 bg-black'>
+        <a href='home' className='hover:underline'>Home</a>
+        <a href='about' className='hover:underline'>About</a>
+        <a href='contact' className='hover:underline'>Contact</a>
+        <a href='invest' className='hover:underline'>Invest</a>
+        </div>
+        </div> */}
+        {/* Hamburger Icon for mobile */}
+        {/* <button id='menu-btn' className='open flex ml-auto hamburger focus:outline-none md:hidden'>
+              <span class="hamburger-top"></span>
+                <span class="hamburger-middle"></span>
+                <span class="hamburger-bottom"></span>
+        </button> */}
         </div>
       </nav>
       <Quote />
