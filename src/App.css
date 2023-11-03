@@ -36,6 +36,22 @@
   font-size: 3rem;
 }
 
+.description-text{
+  font-family: jeko;
+  font-weight: 500;
+  font-size: 1.5rem;
+}
+
+.description-container{
+  background-color: #f4f4f4;
+  margin-left: 0%;
+}
+
+
+.view-img{
+  max-width: 90%;
+}
+
 @media (max-width: 768px){
   .different-text{
     font-size: 2rem;
