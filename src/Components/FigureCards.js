@@ -3,9 +3,10 @@ import React from 'react'
 function FigureCards() {
   return (
     <div>
-            <div  className=''>
-            <div className=''>
-                <span>1.3</span>
+
+            <div  className='container flex flex-col mx-auto'>
+            <div className='md:w-1/4'>
+                <span className='font-bold'>1.3</span>
                 <span>M</span>
             </div>
             <div className=''>
