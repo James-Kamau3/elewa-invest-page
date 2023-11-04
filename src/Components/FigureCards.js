@@ -7,8 +7,10 @@ function FigureCards() {
     <div>
                   {/* FigureCards container */}
             <div  className='figurecards-container grid grid-cols-2 md:grid md:grid-cols-4 md:mt-20 md:grid-flow-row'>
+
                   {/* Card for displaying the cards */}
 
+                  {/* Card-1 */}
                   <div className='p-6 border-y border-black md:flex-row md:border-x md:pt-32 rounded-3xl'>
             <div className='figures font-bold' >
                 <span className='figure'>1.3</span>
@@ -21,6 +23,7 @@ function FigureCards() {
             </div>
             </div> 
 
+                {/* Card-2 */}
             <div className='p-6 border-y border-black md:p-8 md:border-x md:pt-32 rounded-3xl'>
             <div className='figures font-bold' >
                 <span className='figure'>5</span>
@@ -32,6 +35,7 @@ function FigureCards() {
             </div>
             </div> 
 
+                  {/* Card-3 */}
             <div className='p-6 border-y border-black md:p-8 md:border-x md:pt-32 rounded-3xl'>
             <div className='figures font-bold' >
                 <span className='figure'>2022</span>
@@ -42,6 +46,7 @@ function FigureCards() {
             </div>
             </div> 
 
+                  {/* Card-4 */}
             <div className='p-6 border-y border-black md:p-8 md:border-x md:pt-32 rounded-3xl'>
             <div className='figures font-bold' >
                 <span className='figure'>1.5</span>
@@ -53,6 +58,7 @@ function FigureCards() {
             </div>
             </div> 
 
+                {/* Card-5 */}
             <div className='p-6 border-y border-black md:p-8 md:border-x md:pt-32 rounded-3xl'>
             <div className='figures font-bold' >
                 <span className='figure'>10</span>
@@ -64,6 +70,7 @@ function FigureCards() {
             </div>
             </div> 
 
+                {/* Card-6 */}
             <div className='p-6 border-y border-black md:p-8 md:border-x md:pt-32 rounded-3xl'>
             <div className='figures font-bold' >
                 <span className='figure'>2050</span>
@@ -74,6 +81,7 @@ function FigureCards() {
             </div>
             </div> 
 
+                  {/* Card-7 */}
             <div className='p-6 border-y border-black md:p-8 md:border-x md:pt-32 rounded-3xl'>
             <div className='figures font-bold' >
                 <span className='figure'>$4.6</span>
@@ -84,6 +92,8 @@ function FigureCards() {
                 Startup funding raised by African startups in 2022                </p>
             </div>
             </div> 
+
+            {/* Card-8 */}
 
             <div className='p-6 border-y border-black md:p-8 md:border-x md:pt-32 rounded-3xl'>
             <div className='figures' >

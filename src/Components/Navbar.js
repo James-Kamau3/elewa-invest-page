@@ -4,6 +4,9 @@ import Quote from './Quote'
 
 function Navbar() {
   return (
+
+    // Navbar that displays the logo and menu items
+    
     <div className='navbar-container'>
       
       {/* Background image */}
