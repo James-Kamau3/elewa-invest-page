@@ -9,19 +9,19 @@
 
 You can clone the repository using the following command:
 
-```git clone https://github.com/<YOUR USERNAME>/elewa-invest-page```
+```git clone https://github.com/<YOUR USERNAME>/elewa-invest-page
 
 ### Installing dependencies
 
 After cloning the repository, navigate to the project directory and install the dependencies by running the following command:
 
-```npm install```
+```npm install
 
 ### Running the project
 
 To run the project, run the following command:
 
-```npm start```
+```npm start
 
 This will start the development server and the application can be accessed through a web browser at http://localhost:3000/.
 
