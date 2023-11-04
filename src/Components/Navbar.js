@@ -9,6 +9,7 @@ function Navbar() {
       {/* Background image */}
         <img className='img' src='https://res.cloudinary.com/dyl3rncv3/image/upload/v1679982347/elewa-group-website/hero-Images/dark-to-light_xrat5g.jpg' alt='sky'/>
 
+        {/* Navbar */}
       <nav className='relative container mx-auto p-12 md:border-b-2 md:border-white'>
 
         {/* Logo */}
