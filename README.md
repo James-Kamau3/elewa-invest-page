@@ -29,7 +29,7 @@ This will start the development server and the application can be accessed throu
 
 ### Languages
 The project is developed using the following languages:
-1. Reatjs
+1. Reactjs
 2. Tailwind CSS
 
 
