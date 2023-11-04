@@ -93,8 +93,8 @@ function FigureCards() {
             </div>
             </div> 
 
-            {/* Card-8 */}
 
+            {/* Card-8 */}
             <div className='p-6 border-y border-black md:p-8 md:border-x md:pt-32 rounded-3xl'>
             <div className='figures' >
                 <span className='figure'>310</span>
