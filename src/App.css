@@ -55,9 +55,29 @@
 .figures-header{
   font-family: jeko;
   font-weight: 500;
-
 }
 
+.figures{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.figure{
+  font-family: jeko;
+  font-weight: 700;
+  font-size: 3rem;
+}
+
+.figure-text{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: DMSans;
+  font-weight: 400;
+  font-size: 21px;
+  margin-top: .5rem;
+}
 
 
 
@@ -72,5 +92,15 @@
   }
   .description-container{
     background: local;
+  }
+}
+
+@media (max-width: 652px){
+  .figurecards-container{
+    display: grid;
+    grid-auto-rows: max-content;
+    max-width: 100%;
+
+
   }
 }
