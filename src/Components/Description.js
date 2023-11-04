@@ -6,8 +6,8 @@ function Description() {
   return (
     <div>
       {/* Description Container */}
-      <div className='description-container container flex flex-col pl-16 md:pl-16 md:max-w-fit'>
-        <div className='different-header text-xs mt-24 md:mt-32'>
+      <div className='description-container container flex flex-col pl-6 md:pl-16 md:max-w-fit'>
+        <div className='different-header text-sm leading-8  mt-24 md:mt-32'>
             {/* Description header */}
             <h1>How we see it differently</h1>
         </div>
